@@ -94,7 +94,7 @@ Este proyecto tiene como finalidad:
 
 ## 📷 Vista Previa
 
-![Analisis-Excel-Ventas-Historicas-Videojuegos-Por-Genero](images/imagendashboard.jpg)
+![Analisis-Excel-Ventas-Historicas-Videojuegos-Por-Genero](Images/imagendashboard.jpg)
 
 ---
 
