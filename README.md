@@ -1,63 +1,103 @@
-# 🎮 Dashboard de ventas de videojuegos históricos en Excel
+# 🎮 Video Game Sales Dashboard (Excel)
 
-Este proyecto consiste en la creación de un **dashboard interactivo en Excel** para visualizar las ventas de los videojuegos más vendidos de la historia, segmentadas por regiones y años.
-
----
-
-## 📊 Descripción del dashboard
-
-El dashboard muestra **cuatro gráficos circulares (pastel)** que representan las ventas de videojuegos en diferentes regiones del mundo:
-
-- Estados Unidos  
-- Japón  
-- Unión Europea  
-- Resto del mundo  
-
-Encima de cada gráfico hay un **KPI (Indicador Clave de Rendimiento)** que indica el **género de videojuego más vendido** en esa región para el año seleccionado.
+Dashboard interactivo desarrollado en **Microsoft Excel** que analiza las **ventas históricas de videojuegos registradas hasta el año 2020**, segmentadas por región y año.  
+El objetivo del proyecto es **visualizar de forma clara y dinámica el comportamiento de ventas por género y región**, utilizando indicadores clave (KPIs) y gráficos interactivos.
 
 ---
 
-## 🛠️ Funcionalidades principales
+## 📊 Contenido del Dashboard
 
-- **Importación y limpieza de datos con Power Query:**  
-  El dataset original en formato CSV fue importado a Excel y limpiado/preparado usando Power Query para asegurar la calidad y correcta estructura de los datos.
-
-- **Segmentación por año:**  
-  Un cuadro con botones que permiten seleccionar el año que se quiere analizar.  
-  Al cambiar el año, los gráficos y KPIs se actualizan automáticamente para reflejar los datos correspondientes.
-
-- **Gráficos dinámicos:**  
-  Cada gráfico circular muestra la distribución de ventas por género en la región seleccionada y el año filtrado.
-
-- **KPIs informativos:**  
-  Encima de cada gráfico aparece el género más vendido en esa región y año, facilitando una interpretación rápida del dashboard.
+### 🔹 Título
+El dashboard cuenta con un título principal que contextualiza el análisis de ventas históricas de videojuegos.
 
 ---
 
-## 📁 Datos utilizados
+### 🔹 KPIs Principales
 
-- Dataset en formato CSV con información histórica de ventas de videojuegos, que incluye:
-  - Género del videojuego
-  - Ventas por región (EEUU, Japón, Unión Europea, Resto del mundo)
-  - Año de venta
+El dashboard incluye **5 indicadores clave (KPIs)**:
 
----
+1. 💰 **Ventas totales en Estados Unidos**
+2. 💰 **Ventas totales en Japón**
+3. 💰 **Ventas totales en la Unión Europea**
+4. 💰 **Ventas totales en el Resto del Mundo**
+5. 🏆 **Videojuego más vendido del año seleccionado**
 
-## 💡 Aprendizajes y retos
-
-- Uso avanzado de **Power Query para la limpieza y preparación de datos** antes del análisis.  
-- Creación de **gráficos dinámicos en Excel** para generar visualizaciones interactivas.  
-- Aplicación de segmentaciones para filtrar datos por año, mejorando la experiencia del usuario.  
-- Diseño de KPIs que cambian dinámicamente según el filtro, aportando valor analítico extra al dashboard.  
+Los KPIs se actualizan dinámicamente según el año seleccionado mediante el segmentador de datos.
 
 ---
 
-## 🖥️ Tecnologías usadas
+### 🔹 Gráficos
 
-- Microsoft Excel (Power Query, tablas dinámicas, segmentación de datos, gráficos)  
-- CSV para gestión de datos  
-- Análisis y visualización de datos  
+El dashboard contiene **4 gráficos de barras horizontales**, uno por cada región:
+
+- 🇺🇸 Estados Unidos  
+- 🇯🇵 Japón  
+- 🇪🇺 Unión Europea  
+- 🌍 Resto del Mundo  
+
+Cada gráfico muestra:
+- **El porcentaje de ventas por género**
+- **Comparación relativa entre géneros**
+- Datos **segmentados por año**
 
 ---
 
-¡Gracias por visitar este proyecto! Cualquier duda o sugerencia, estoy abierto a colaboraciones y feedback.
+### 🔹 Segmentador de Datos (Slicer)
+
+- 📅 **Segmentador por año de registro**
+- Permite filtrar toda la información del dashboard
+- Actualiza automáticamente KPIs y gráficos
+
+---
+
+## 🧩 Funcionalidades Clave
+
+- Análisis porcentual de ventas por género
+- Comparación regional clara
+- Interactividad mediante segmentadores
+- Visualización orientada a toma de decisiones
+
+---
+
+## 🛠️ Requisitos
+
+- **Microsoft Excel** (Excel 2016 o superior recomendado)
+- Uso de:
+  - **Tablas dinámicas**
+  - Gráficos dinámicos
+  - Segmentadores de datos  
+- ❌ No utiliza macros
+
+---
+
+## 📌 Fuente de Datos
+
+Dataset en formato CSV con **ventas históricas de videojuegos**.  
+La fuente original del dataset no se encuentra disponible actualmente.  
+
+El dataset contiene información sobre:
+- Año de registro
+- Género del videojuego
+- Ventas por región
+- Ventas globales
+
+---
+
+## 🚀 Objetivo del Proyecto
+
+Este proyecto tiene como finalidad:
+- Practicar **análisis de datos con Excel**
+- Desarrollar habilidades en **creación de dashboards**
+- Mostrar capacidad de **visualización y síntesis de información**
+
+---
+
+## 📷 Vista Previa
+
+![Analisis-Excel-Ventas-Historicas-Videojuegos-Por-Genero](images/imagendashboard.jpg)
+
+---
+
+## 📄 Licencia
+
+Proyecto de uso educativo y demostrativo.
