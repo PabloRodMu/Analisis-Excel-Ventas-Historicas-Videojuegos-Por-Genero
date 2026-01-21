@@ -24,6 +24,9 @@ El dashboard incluye **5 indicadores clave (KPIs)**:
 
 Los KPIs se actualizan dinámicamente según el año seleccionado mediante el segmentador de datos.
 
+🔸 **Mejora de experiencia de usuario**:  
+Cuando **no hay ningún año seleccionado** en el segmentador, el KPI **“Videojuego más vendido del año”** muestra el mensaje **“Seleccione el año”**, evitando resultados ambiguos y guiando al usuario para una correcta interacción con el dashboard.
+
 ---
 
 ### 🔹 Gráficos
@@ -47,6 +50,7 @@ Cada gráfico muestra:
 - 📅 **Segmentador por año de registro**
 - Permite filtrar toda la información del dashboard
 - Actualiza automáticamente KPIs y gráficos
+- Controla el contexto del KPI de videojuego más vendido
 
 ---
 
@@ -55,7 +59,8 @@ Cada gráfico muestra:
 - Análisis porcentual de ventas por género
 - Comparación regional clara
 - Interactividad mediante segmentadores
-- Visualización orientada a toma de decisiones
+- Validación visual de selección de filtros
+- **Mensajes dinámicos en KPIs para mejorar la usabilidad**
 
 ---
 
@@ -89,15 +94,17 @@ Este proyecto tiene como finalidad:
 - Practicar **análisis de datos con Excel**
 - Desarrollar habilidades en **creación de dashboards**
 - Mostrar capacidad de **visualización y síntesis de información**
+- Implementar **mejoras de usabilidad en KPIs**
 
 ---
 
 ## 📷 Vista Previa
 
-![Analisis-Excel-Ventas-Historicas-Videojuegos-Por-Genero](Images/imagendashboard.jpg)
+![Analisis-Excel-Ventas-Historicas-Videojuegos-Por-Genero](Images/image.png)
 
 ---
 
 ## 📄 Licencia
 
 Proyecto de uso educativo y demostrativo.
+
